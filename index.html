@@ -44,15 +44,17 @@
     <footer>
         <p>Todos os direitos reservados.</p>
     </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script>
         const sr = ScrollReveal({
-            origin:'top',
-            distance :'20px',
-            duration: 2000,
-            reset:true
-        })
-        ScrollReveal().reveal('.item');
-
-    </script>
+        origin: 'top',
+        distance: '50px',
+        duration: 2000,
+        reset: true
+        });
+        
+        ScrollReveal().reveal('.container', { delay: 200 });
+    
+        </script>
 </body>
 </html>
